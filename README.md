@@ -1,19 +1,21 @@
-# Slim_app
+# slim_app
 
 This repository builds a docker image for running web apps written in php with the Slim framework
 
+This starts with [alpine_neovim](https://github.com/cskeeters/alpine_neovim) which has a configured bash and vim.
+
 # Build
 
-```shell
-make build
-```
+    make
 
-# Inspect
+# Install Modules with Composer
 
-```shell
-make shell
-composer install
-```
+    make bash
+    composer install
+
+# Usage
+
+To see how to use this program, see [cskeeters/walden_point_hoa](https://github.com/cskeeters/walden_point_hoa).
 
 # Detail
 
