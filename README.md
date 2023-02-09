@@ -1,6 +1,6 @@
-# php_app
+# Slim_app
 
-This repository builds a docker image for running web apps written in php
+This repository builds a docker image for running web apps written in php with the Slim framework
 
 # Build
 
@@ -19,6 +19,8 @@ composer install
 
 * Starts from [Alpine Linux](https://www.alpinelinux.org/)
 * Adds [php 8.1](https://www.php.net/) with intl.so (supports ext-intl)
+    * Includes simplexml php extension (Required for Slim-Http)
+    * Includes fileinfo php extension (Required for Slim-Http)
 * Adds [php-fpm](https://www.php.net/manual/en/install.fpm.php)
 * Adds [nginx](https://www.nginx.com/)
 * Adds [composer](https://getcomposer.org/)
