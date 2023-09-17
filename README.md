@@ -15,7 +15,7 @@ This starts with [alpine_neovim](https://github.com/cskeeters/alpine_neovim) whi
 
 # Usage
 
-To see how to use this program, see [cskeeters/walden_point_hoa](https://github.com/cskeeters/walden_point_hoa).
+To see how to use this program, see [cskeeters/waldenpoint_www](https://github.com/cskeeters/waldenpoint_www).
 
 # Detail
 
