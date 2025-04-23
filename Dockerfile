@@ -1,9 +1,9 @@
 FROM alpine_neovim:latest
-RUN apk add --no-cache nginx php81 php81-session php81-simplexml php81-fileinfo php81-opcache php81-fpm composer php81-intl supervisor
+RUN apk add --no-cache nginx php83 php83-session php83-simplexml php83-fileinfo php83-opcache php83-fpm composer php83-intl supervisor
 
 # Setup php-fpm
-ADD php.ini /etc/php81/
-ADD www.conf /etc/php81/php-fpm.d/
+ADD php.ini /etc/php83/
+ADD www.conf /etc/php83/php-fpm.d/
 
 # Setup nginx
 ADD default.conf /etc/nginx/http.d

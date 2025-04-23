@@ -19,5 +19,7 @@ elif [[ $1 == "bash" ]]; then
 
 elif [[ $1 == "simple" ]]; then
     cd /var/www/app/public
-    php81 -S 0.0.0.0:80
+    php83 -S 0.0.0.0:80
+else
+    echo "init.sh doesn't support $1"
 fi
