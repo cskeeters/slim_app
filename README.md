@@ -20,7 +20,7 @@ To see how to use this program, see [cskeeters/waldenpoint_www](https://github.c
 # Detail
 
 * Starts from [Alpine Linux](https://www.alpinelinux.org/)
-* Adds [php 8.1](https://www.php.net/) with intl.so (supports ext-intl)
+* Adds [php 8.3](https://www.php.net/) with intl.so (supports ext-intl)
     * Includes simplexml php extension (Required for Slim-Http)
     * Includes fileinfo php extension (Required for Slim-Http)
 * Adds [php-fpm](https://www.php.net/manual/en/install.fpm.php)
