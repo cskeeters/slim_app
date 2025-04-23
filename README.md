@@ -1,6 +1,6 @@
 # slim_app
 
-This repository builds a docker image for running web apps written in php with the Slim framework
+This repository builds a docker image for running web apps written in php with the Slim framework.
 
 This starts with [alpine_neovim](https://github.com/cskeeters/alpine_neovim) which has a configured bash and vim.
 
