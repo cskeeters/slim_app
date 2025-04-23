@@ -35,5 +35,5 @@ To see how to use this program, see [cskeeters/waldenpoint_www](https://github.c
 # Motivation
 
 * This enables me to have a single container to run a php web application
-* The version of php and composer come from the Apine package repository so they are tested to work
+* The version of php and composer come from the Alpine package repository so they are tested to work
 * I can inspect the container with bash
